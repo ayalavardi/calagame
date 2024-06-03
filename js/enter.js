@@ -206,9 +206,9 @@ window.onload = function () {
 	setTimeout(function () {
 		Swal.fire({
 			// html: '<a href="https://drive.google.com/file/d/1udeu0GHFoYP-qqREhKaMUyVzAUBvCRpY/view?usp=gmail">?קדימה! מי מחכה שם</a>',
-			text: "!!!",
-			imageUrl: "../pic/חמות.jpg",
-			imageWidth: 350,
+			text: "👆",
+			imageUrl: "../pic/שירהמרשה.png",
+			imageWidth: 450,
 			imageHeight: 450,
 			imageAlt: "Custom image"
 		});
