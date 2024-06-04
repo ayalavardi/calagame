@@ -203,16 +203,16 @@ window.onload = function () {
 	// 	});
 	// }, 7000);
 
-	setTimeout(function () {
-		Swal.fire({
-			// html: '<a href="https://drive.google.com/file/d/1udeu0GHFoYP-qqREhKaMUyVzAUBvCRpY/view?usp=gmail">?קדימה! מי מחכה שם</a>',
-			text: "👆",
-			imageUrl: "../pic/שירהמרשה.png",
-			imageWidth: 450,
-			imageHeight: 450,
-			imageAlt: "Custom image"
-		});
-	}, 7000);
+	// setTimeout(function () {
+	// 	Swal.fire({
+	// 		// html: '<a href="https://drive.google.com/file/d/1udeu0GHFoYP-qqREhKaMUyVzAUBvCRpY/view?usp=gmail">?קדימה! מי מחכה שם</a>',
+	// 		text: "👆",
+	// 		imageUrl: "../pic/שירהמרשה.png",
+	// 		imageWidth: 450,
+	// 		imageHeight: 450,
+	// 		imageAlt: "Custom image"
+	// 	});
+	// }, 7000);
 
 	var merrywrap = document.getElementById("merrywrap");
 	var box = merrywrap.getElementsByClassName("giftbox")[0];
@@ -267,6 +267,7 @@ function reveal() {
 	let date = `${day}-${month}`;
 	var video = document.createElement("video");
 	// video.src = `../videos/${date}.mp4`;
+	video.src = `../videos/בת דודה_0.mp4`;
 	video.loop = true;
 	video.autoplay = true;
 	video.controls = true;
