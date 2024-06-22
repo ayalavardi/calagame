@@ -47,7 +47,7 @@ function action() {
     // process.env.SENDGRID_API_KEY
     document.body.classList.add('fade-out');
     document.body.addEventListener('animationend', function () {
-        window.location.href = './html/enter.html';
+    window.location.href = './html/enter.html';
 
     });
 }
